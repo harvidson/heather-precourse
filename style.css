@@ -1,0 +1,176 @@
+/*
+=====================================
+body
+======================================
+*/
+
+.wrapper {
+  max-width: 1000px;
+  min-height: 1000px;
+  margin: auto;
+  background-image: url(assets/pow-star.png);
+  padding: 20px;
+}
+
+/*
+=====================================
+Typography
+======================================
+*/
+h1 {
+  font: 42px/80px 'Source Sans Pro', sans-serif;
+  color: #6F9693;
+}
+
+h2 {
+  font-size: 24px;
+  font-weight: 300;
+  color: #6F9693;
+}
+
+/*
+========================================
+Primary header
+========================================
+*/
+
+.logo {
+  background-color: #FFF;
+  width: 100%;
+  height: 80px;
+}
+
+/*
+========================================
+Navigation
+========================================
+*/
+.primary-nav {
+  padding-bottom: 10px;
+  float: right;
+}
+.primary-nav li {
+  list-style-type: none;
+  display: inline-block;
+}
+
+.nav-links li:first-child {
+  margin-right: 10px;
+}
+
+.nav-links li:last-child {
+  margin-left: 10px;
+}
+
+/*
+========================================
+main
+========================================
+*/
+
+ul {
+  list-style-type: disc;
+  list-style-image: url(assets/wave-icon.png);
+}
+
+/*
+========================================
+Links
+========================================
+*/
+a:link {
+  color: #517175;
+  text-decoration: none;
+}
+a:visited {
+  color: #D98255;
+}
+
+a:hover {
+  color: #508085;
+}
+
+/*
+========================================
+Primary footer
+========================================
+*/
+.footer-text {
+  font-size: 14px;
+  display: block;
+  text-align: center;
+  width: 100%;
+  margin: 10px auto;
+}
+
+.footer-text-left {
+  font-size: 14px;
+
+}
+
+/*
+========================================
+index.html
+========================================
+*/
+
+.about {
+  clear: both;
+}
+
+.main-photo {
+  width: 100%;
+  margin: auto;
+}
+
+.favorite li {
+  padding: 5px 0;
+}
+
+.main-photo img {
+  display: block;
+  width: 60%;
+  margin: auto;
+  border-radius: 20px;
+}
+
+.favorite-things {
+  color: #D98255;
+}
+
+
+/*
+========================================
+future.html
+========================================
+*/
+
+.future-text {
+ float: left;
+ width: 40%;
+ margin: 0 0 0 15px;
+
+}
+
+.future-photo img {
+ float: left;
+ width: 40%;
+ border-radius: 10px;
+ margin: 0 15px 0 0;
+}
+
+.boundary {
+  clear: both;
+}
+
+/*
+========================================
+galvanize.html
+========================================
+*/
+
+.giph {
+  display: block;
+  margin: auto;
+  width: 50%;
+}
