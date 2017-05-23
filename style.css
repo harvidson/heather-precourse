@@ -20,12 +20,26 @@ Typography
 h1 {
   font: 42px/80px 'Source Sans Pro', sans-serif;
   color: #6F9693;
+  padding-left: 10px;
+  margin: 0;
 }
 
 h2 {
   font-size: 24px;
   font-weight: 300;
   color: #6F9693;
+  padding-left: 10px;
+}
+
+p {
+  font: 300 18px 'Source Sans Pro', sans-serif;
+  padding-left: 10px;
+}
+
+ul {
+  font: 300 18px 'Source Sans Pro', sans-serif;
+  list-style-type: disc;
+  list-style-image: url(assets/wave-icon.png);
 }
 
 /*
@@ -62,16 +76,6 @@ Navigation
   margin-left: 10px;
 }
 
-/*
-========================================
-main
-========================================
-*/
-
-ul {
-  list-style-type: disc;
-  list-style-image: url(assets/wave-icon.png);
-}
 
 /*
 ========================================
@@ -101,11 +105,6 @@ Primary footer
   text-align: center;
   width: 100%;
   margin: 10px auto;
-}
-
-.footer-text-left {
-  font-size: 14px;
-
 }
 
 /*
@@ -165,6 +164,10 @@ future.html
 
 .boundary {
   clear: both;
+}
+
+.footer-text-left p {
+  font-size: 14px;
 }
 
 /*
