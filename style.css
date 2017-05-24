@@ -83,7 +83,7 @@ Links
 ========================================
 */
 a:link {
-  color: #517175;
+  color: #7FB1B8;
   text-decoration: none;
 }
 a:visited {
@@ -91,11 +91,11 @@ a:visited {
 }
 
 a:hover {
-  color: #A0DFE8;
+  color: #517175;
 }
 
 a:active {
-  color: #D98255;
+  color: #7FB1B8;
 }
 
 /*
